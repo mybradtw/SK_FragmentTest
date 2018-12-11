@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".F1">
+    tools:context=".Page2Activity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Page 2"
         android:textSize="36sp"
-        android:text="F1 Page" />
-
-    <Button
-        android:id="@+id/f1_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Lottery"
         />
-
-    <TextView
-        android:id="@+id/f1_txt"
+    <fragment
+        android:id="@+id/page2_f1"
+        android:name="tw.brad.sk_barcodefragmenttest.F1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         />
 
 </LinearLayout>
